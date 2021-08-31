@@ -25,7 +25,7 @@ class Problem1Test {
     @Test
     public void testSolve_palindromeString_sameString(){
         String res = problem1.solve("mama");
-        assertEquals("mama",res);
+        assertEquals("amam",res);
     }
     @Test
     public void testSolve_manySymbols_reverseString(){
